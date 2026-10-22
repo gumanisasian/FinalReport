@@ -65,7 +65,7 @@ plt.legend()
 plt.xlim(0, 0.6)
 plt.xlabel(r"Laser time $t$ ($\mu$s)")
 plt.ylabel("Normalised Photoluminescence")
-plt.savefig("PL_comparison", dpi=300)
+plt.savefig("PL_comparison.png", dpi=300)
 
 ################################
 # Considering the total expected photon counts of both initial states.
